@@ -1,6 +1,6 @@
 # Installation 
     git clone git@github.com:imanimen/free-translate-service.git
-    cd translate
+    cd free-translate-service
     pip install fastapi pydantic deep_translator
     python app.py
 # Run
