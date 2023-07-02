@@ -15,4 +15,4 @@ server:port/translate
     "target": "fa"
 }
 # Documenation
-server:port/docs# translate-api-free
+server:port/docs
