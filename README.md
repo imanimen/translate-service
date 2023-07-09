@@ -14,5 +14,11 @@
         "source": "en",
         "target": "fa"
     }
-# Documenation
+# Documentation
     http://127.0.0.1/docs
+
+# Notes
+    - Install Python 3 or higher
+    - Keep in mind that this service need to make requests to google so it needs intenet
+    - Feel free to submit merge request 
+    - Enjoy
