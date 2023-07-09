@@ -1,7 +1,7 @@
 # Installation 
     git clone git@github.com:imanimen/free-translate-service.git
     cd free-translate-service
-    pip install fastapi pydantic deep_translator
+    pip install fastapi pydantic deep_translator uvicorn
 # Run
     python app.py
 # Endpoint
