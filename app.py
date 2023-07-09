@@ -45,7 +45,7 @@ def translate_text(request: TranslationRequest):
     source = request.source
     target = request.target
 
-    # Translate the text
+    # Translate the main text
     chunks = split_text(text)
     translated_text = ''
     for chunk in chunks:
@@ -53,7 +53,7 @@ def translate_text(request: TranslationRequest):
             source = 'auto'
         translated = GoogleTranslator(source=source, target=target).translate(text=chunk)
         translated_text += translated + "\n"
-
+        
     # Remove extra new lines
     translated_text = re.sub(r'[\n]{3,}', '\n\n', translated_text.strip())
     translated_text = translated_text.strip()
