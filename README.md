@@ -1,6 +1,6 @@
 # Installation 
-    git clone git@github.com:imanimen/free-translate-service.git
-    cd free-translate-service
+    git clone https://github.com/imanimen/translate-service.git
+    cd translate-service
     pip install -r requirements.txt
 # Run
     python app.py
