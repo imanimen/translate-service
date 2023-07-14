@@ -6,7 +6,7 @@ After=network.target
 User=root
 Group=root
 WorkingDirectory=/path/to/myapp
-ExecStart=/usr/bin/env python3 -m uvicorn main:app --host 0.0.0.0 --port 8080
+ExecStart=/usr/bin/env python3.8 -m uvicorn main:app --host 0.0.0.0 --port 8080
 Restart=always
 
 [Install]
